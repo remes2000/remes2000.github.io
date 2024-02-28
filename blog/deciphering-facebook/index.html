@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en" class=""><head>
+    <meta charset="utf-8">
+    <title>Michał Nieruchalski</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-BYy3mmNz.ico">
+    <script>
+      /* the script is put here to avoid flickering on first load */
+      const THEME_MODE_STORAGE_KEY = 'theme_mode_storage_key';
+      const DARK_MODE_CLASS = 'dark-mode';
+      const isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const storedItem = localStorage.getItem(THEME_MODE_STORAGE_KEY);
+      if (storedItem === 'dark' || (!storedItem && isSystemDark)) {
+        document.documentElement.classList.add(DARK_MODE_CLASS);
+      }
+    </script>
+    <script type="module" crossorigin="" src="/assets/index-BYZHlI8Z.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DPamYFy5.css">
+  <style ng-app-id="ng">nav[_ngcontent-ng-c2990945440] {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  border-bottom: 0.1rem solid var(--accent-color);
+  box-sizing: border-box;
+}
+nav[_ngcontent-ng-c2990945440]   .blog-name[_ngcontent-ng-c2990945440] {
+  font-size: 1.8rem;
+}
+nav[_ngcontent-ng-c2990945440]   .blog-name[_ngcontent-ng-c2990945440]   a[_ngcontent-ng-c2990945440] {
+  text-decoration: none;
+  color: var(--font-color);
+}</style><style ng-app-id="ng">footer[_ngcontent-ng-c1137754400] {
+  text-align: center;
+  padding: 5rem 0;
+}
+footer[_ngcontent-ng-c1137754400]   a[_ngcontent-ng-c1137754400] {
+  color: var(--font-color);
+  text-decoration: none;
+}</style><style ng-app-id="ng">button[_ngcontent-ng-c3568535177] {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+button[_ngcontent-ng-c3568535177]:hover {
+  border: 1px solid var(--accent-color);
+  border-radius: 50%;
+}
+button[_ngcontent-ng-c3568535177]   svg[_ngcontent-ng-c3568535177] {
+  width: 100%;
+  height: 100%;
+  fill: var(--font-color);
+}
+button[_ngcontent-ng-c3568535177]   svg[_ngcontent-ng-c3568535177]   path[_ngcontent-ng-c3568535177] {
+  stroke: var(--font-color);
+}</style><style ng-app-id="ng">.social-media[_ngcontent-ng-c932822085] {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2.5rem;
+}
+.social-media[_ngcontent-ng-c932822085]   a[_ngcontent-ng-c932822085] {
+  display: block;
+  width: 2.5rem;
+}
+.social-media[_ngcontent-ng-c932822085]   a[_ngcontent-ng-c932822085]   svg[_ngcontent-ng-c932822085] {
+  width: 100%;
+  fill: var(--font-color);
+}</style><style ng-app-id="ng">.blog-post[_ngcontent-ng-c3711545645] {
+  max-width: 90rem;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+.blog-post[_ngcontent-ng-c3711545645]   .author[_ngcontent-ng-c3711545645] {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}</style></head>
+  <body><!--nghm-->
+    <app-root ng-version="17.2.3" ngh="3" ng-server-context="ssr-analog"><router-outlet></router-outlet><app-blog ngh="2"><app-nav _nghost-ng-c2990945440="" ngh="0"><nav _ngcontent-ng-c2990945440=""><div _ngcontent-ng-c2990945440="" class="blog-name"><a _ngcontent-ng-c2990945440="" href="/">mnieruchalski.me</a></div><app-mode-switch _ngcontent-ng-c2990945440="" _nghost-ng-c3568535177="" ngh="0"><button _ngcontent-ng-c3568535177=""><svg _ngcontent-ng-c3568535177="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path _ngcontent-ng-c3568535177="" d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="#323232" stroke-width="2"></path><path _ngcontent-ng-c3568535177="" d="M12 5V3" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M17 7L19 5" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M19 12H21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M17 17L19 19" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M12 19V21" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M7 17L5 19" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M5 12H3" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path _ngcontent-ng-c3568535177="" d="M5 5L7 7" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></app-mode-switch></nav></app-nav><router-outlet></router-outlet><app-blog-post-page ngh="1"><app-blog-post _nghost-ng-c3711545645="" ngh="0"><article _ngcontent-ng-c3711545645="" class="blog-post"><h1 _ngcontent-ng-c3711545645="">Deciphering Facebook: Analyzing Messenger Chats</h1><section _ngcontent-ng-c3711545645="" class="author">Feb 26, 2024 - Michał Nieruchalski</section><analog-markdown _ngcontent-ng-c3711545645="" ngh="0"><div class="analog-markdown"><figure>
+  <img src="/posts/deciphering-facebook/header.jpg" alt="Facebook Messenger Logo" title="Facebook Messenger Logo">
+  <figcaption>
+    Photo by <a href="https://unsplash.com/photos/white-and-blue-apple-logo-xdBNTAdqU3A">Brett Jordan</a>
+  </figcaption>
+</figure>
+
+<h2 id="background">Background</h2>
+<p>During my time at the university, we had a group chat on Facebook Messenger with a couple of my closest friends. As some exams were coming up, we had been noticing that we were starting to text each other more and more, and during holidays, our group chat was almost dead.&nbsp;</p>
+<p>We’ve started joking that we don’t really like each other, and the only reason that we’re still in touch is to survive the university and pass the exams. As I’ve just graduated (yaaay!&nbsp;🥳🎉), I’ve realized that now is a good time to analyze the group chat!</p>
+<h2 id="getting-the-data">Getting the data</h2>
+<p>First things first, I had to collect the data. Luckily, there’s a built-in Facebook mechanism for exporting all the chat messages. You simply go to <strong>Settings</strong> and use the search bar to search for <strong>“Download your information.”</strong>. If everything went well, you should see the dialog below:</p>
+<figure>
+  <img src="/posts/deciphering-facebook/download-info-dialog.png" alt="Download your information dialog" title="Download your information dialog" width="600px">
+  <figcaption>Download your information dialog</figcaption>
+</figure>
+
+<p>Then you can specify what kind of data you want to download (messages) and define the time range (3 years in my case). You can also choose your output format, I have chosen JSON, but there is also HTML available.&nbsp;And then… you wait! You’ll be notified by email when the data will be ready to download. Be patient, it took about 9 hours in my case.</p>
+<!-- TODO: powinienem zdecydować czy piszę o tym jak to zrobić, czy jak ja to zrobiłem -->
+
+<h2 id="the-output-format">The output format</h2>
+<p>The data was broken down into multiple .zip archives and each archive was about ~6&nbsp;GB. Each archive contained files that looked something like this:</p>
+<pre class="language-html"><code class="language-html">- messages
+  - inbox
+    - [Group chat name]_[bunch of numbers (propably some kind of id)]
+      - message_1.json
+      - ...
+      - message_8.json
+      - photos
+      - videos
+      - ...</code></pre><p>Our messages were located inside message.json files. Each of those files was about ~2.4 MB. Let’s take a look at that JSON:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"participants"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span> <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Firstname Lastname"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    ...
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"messages"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"sender_name"</span><span class="token operator">:</span> <span class="token string">"Firstname Lastname"</span><span class="token punctuation">,</span>
+      <span class="token property">"timestamp_ms"</span><span class="token operator">:</span> <span class="token number">1708467078703</span><span class="token punctuation">,</span>
+      <span class="token property">"content"</span><span class="token operator">:</span> <span class="token string">"Content of the message"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    ...
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre><h2 id="lets-code">Let’s code!</h2>
+<p>Now to the fun part. At this point, I had everything I needed to successfully analyze the chat history. I’ve started by writing a simple node.js script. My goal was to transform multiple .JSON files into a single .sqlite file. That transformation enabled me to examine the chat history via SQL queries.</p>
+<pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> fs <span class="token keyword">from</span> <span class="token string">'fs'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> sqlite3 <span class="token keyword">from</span> <span class="token string">'sqlite3'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token constant">NUMBER_OF_FILES</span> <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token constant">FILE_PREFIX</span> <span class="token operator">=</span> <span class="token string">'message_'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token constant">FILE_EXTENSION</span> <span class="token operator">=</span> <span class="token string">'.json'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token constant">MESSAGE_DIR</span> <span class="token operator">=</span> <span class="token string">'messages'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token constant">OUTPUT_FILE</span> <span class="token operator">=</span> <span class="token string">'db.sqlite'</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">fixEncoding</span> <span class="token operator">=</span> <span class="token parameter">m</span> <span class="token operator">=&gt;</span> Buffer<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>m <span class="token operator">??</span> <span class="token string">''</span><span class="token punctuation">,</span> <span class="token string">'latin1'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">millisecondToSecond</span> <span class="token operator">=</span> <span class="token parameter">ms</span> <span class="token operator">=&gt;</span> Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>ms <span class="token operator">/</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> messages <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">length</span><span class="token operator">:</span> <span class="token constant">NUMBER_OF_FILES</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">_<span class="token punctuation">,</span> index</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">MESSAGE_DIR</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">FILE_PREFIX</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>index <span class="token operator">+</span> <span class="token number">1</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">FILE_EXTENSION</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">filepath</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>filepath<span class="token punctuation">,</span> <span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">accumulator<span class="token punctuation">,</span> <span class="token punctuation">{</span> messages <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>accumulator<span class="token punctuation">,</span> <span class="token operator">...</span>messages<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> db <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">sqlite3<span class="token punctuation">.</span>Database</span><span class="token punctuation">(</span><span class="token constant">OUTPUT_FILE</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+db<span class="token punctuation">.</span><span class="token function">serialize</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  db<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token string">"CREATE TABLE messages (author TEXT, message TEXT, date INTEGER)"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> insertStatement <span class="token operator">=</span> db<span class="token punctuation">.</span><span class="token function">prepare</span><span class="token punctuation">(</span><span class="token string">"INSERT INTO messages (author, message, date) VALUES (?, ?, ?)"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  messages<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> sender_name<span class="token punctuation">,</span> content<span class="token punctuation">,</span> timestamp_ms <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> 
+    insertStatement<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token function">fixEncoding</span><span class="token punctuation">(</span>sender_name<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">fixEncoding</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">millisecondToSecond</span><span class="token punctuation">(</span>timestamp_ms<span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  insertStatement<span class="token punctuation">.</span><span class="token function">finalize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+db<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><p>As I said, the script is not very complicated. First, I load all the messages into a single “messages” variable. Then I create a new .sqlite file and I name it “db.sqlite”. Next, I create a new “messages” table, and finally, I iterate over each message and insert it as a new row into our SQL table.</p>
+<p>The mysterious “fixEncoding” method is a workaround. I’m Polish, and we use a couple of non-standard Latin signs (ąćęłńóśźż). For some reason, Facebook does not handle those properly in exported files. You can read more about that <a href="https://stackoverflow.com/questions/50008296/facebook-json-badly-encoded">here</a>.</p>
+<h2 id="results">Results</h2>
+<p>Then I’ve opened a <a href="https://dbeaver.io/">DBeaver</a> and created a connection to the “db.sqlite” file.&nbsp;</p>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> 
+    <span class="token keyword">datetime</span><span class="token punctuation">(</span><span class="token function">MIN</span><span class="token punctuation">(</span><span class="token keyword">date</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'unixepoch'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'First message'</span><span class="token punctuation">,</span>
+    <span class="token keyword">datetime</span><span class="token punctuation">(</span><span class="token function">MAX</span><span class="token punctuation">(</span><span class="token keyword">date</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'unixepoch'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'Last message'</span>
+<span class="token keyword">FROM</span> messages<span class="token punctuation">;</span></code></pre><p>The first message was sent at&nbsp;2022-02-11 17:57:19, and the last at&nbsp;2024-02-09 22:02:42.</p>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> messages<span class="token punctuation">;</span></code></pre><p>In total, we have sent 76277 messages.</p>
+<p>Now, which one of us was the most active? (I’ve removed the surnames :D)</p>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">WITH</span> totalcount <span class="token keyword">AS</span> <span class="token punctuation">(</span>
+    <span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'total_count'</span> <span class="token keyword">FROM</span> messages
+<span class="token punctuation">)</span>
+<span class="token keyword">SELECT</span> 
+    author<span class="token punctuation">,</span> 
+    <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'Message Count'</span><span class="token punctuation">,</span>
+    printf<span class="token punctuation">(</span><span class="token string">"%.2f%%"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>CAST<span class="token punctuation">(</span><span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token keyword">FLOAT</span><span class="token punctuation">)</span> <span class="token operator">/</span> total_count<span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'Percentage'</span>
+<span class="token keyword">FROM</span> messages<span class="token punctuation">,</span> totalcount
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> author 
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">DESC</span><span class="token punctuation">;</span></code></pre><pre class="language-html"><code class="language-html">author             |Message Count|Percentage|
+-------------------+-------------+----------+
+Krystian           |        17686|23.19%    |
+Dawid K            |        17164|22.50%    |
+Szymon P           |        10607|13.91%    |
+Dawid G            |         8911|11.68%    |
+Michał (me)        |         8122|10.65%    |
+Kuba               |         7617|9.99%     |
+Szymon K           |         6170|8.09%     |</code></pre><p>Now to the final question: Were we really communicating more frequently during the exam period? Let’s check it out.</p>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span>
+    STRFTIME<span class="token punctuation">(</span><span class="token string">'%m-%Y'</span><span class="token punctuation">,</span> <span class="token keyword">DATETIME</span><span class="token punctuation">(</span><span class="token keyword">date</span><span class="token punctuation">,</span> <span class="token string">'unixepoch'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'Month'</span><span class="token punctuation">,</span>
+    <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token string">'Count'</span>
+<span class="token keyword">FROM</span> messages
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> STRFTIME<span class="token punctuation">(</span><span class="token string">'%m-%Y'</span><span class="token punctuation">,</span> <span class="token keyword">DATETIME</span><span class="token punctuation">(</span><span class="token keyword">date</span><span class="token punctuation">,</span> <span class="token string">'unixepoch'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token keyword">date</span><span class="token punctuation">;</span></code></pre><pre class="language-html"><code class="language-html">Month  |Count|
+-------+-----+
+02-2022| 2599|
+03-2022| 2705|
+04-2022| 3651|
+05-2022| 6403|
+06-2022|10064|
+07-2022| 2173|
+08-2022| 1449|
+09-2022| 1589|
+10-2022| 2191|
+11-2022| 1985|
+12-2022| 2157|
+01-2023| 5368|
+02-2023| 9484|
+03-2023| 3524|
+04-2023| 1054|
+05-2023| 1534|
+06-2023| 3758|
+07-2023| 1104|
+08-2023|  310|
+09-2023| 1455|
+10-2023| 3055|
+11-2023| 1061|
+12-2023| 1537|
+01-2024| 3325|
+02-2024| 2742|</code></pre><p>Since right now, it’s just a bunch of numbers, I’ll create a Barchart, to visualize it.</p>
+<figure>
+  <img src="/posts/deciphering-facebook/barchart.png" alt="Chart: Number of messages a Month" title="Chart: Number of messages a Month">
+  <figcaption>Chart: Number of messages a month</figcaption>
+</figure>
+
+<p>We had the majority of our exams in four months: January, February, June, and July. (I’ve highlighted the bars representing those values in red.) And as you can see from the bar chart, yes, we did indeed text more during this busy exam period.
+Another noteworthy observation is that we were able to dispatch over 10 000 messages in June 2022, during the exam period, and as low as 310 in August 2023, during the holidays 😅</p>
+<h2 id="further-ideas">Further ideas</h2>
+<p>Here are a few ideas for analysis that one can perform on this kind of data:</p>
+<ul>
+<li>Average length of message</li>
+<li>Average length of message per user</li>
+<li>The most frequent word</li>
+<li>The most frequent curse 😅</li>
+<li>Who’s swearing the most?</li>
+<li>Who sent the most photos/videos?</li>
+<li>Who’s the funny one? Who received the most laughing reactions?</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>Once I received the data, I had plenty of fun analyzing the JSON, transforming it into .sqlite and then finally analyzing the data using SQL queries. My friends made fun of me by saying that this article shows what happens when you have too much time after graduating. (And I think they are right 😆) All the source code is available on my <a href="https://github.com/remes2000/koledzy_uam">GitHub</a>.</p>
+</div></analog-markdown></article></app-blog-post><!----></app-blog-post-page><!----><app-footer _nghost-ng-c1137754400="" ngh="0"><footer _ngcontent-ng-c1137754400=""><div _ngcontent-ng-c1137754400=""><a _ngcontent-ng-c1137754400="" href="/">Michał Nieruchalski 2024</a></div><app-social-media _ngcontent-ng-c1137754400="" _nghost-ng-c932822085="" ngh="0"><div _ngcontent-ng-c932822085="" class="social-media"><a _ngcontent-ng-c932822085="" href="https://github.com/remes2000"><svg _ngcontent-ng-c932822085="" viewBox="0 0 256 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"><g _ngcontent-ng-c932822085=""><path _ngcontent-ng-c932822085="" d="M128.00106,0 C57.3172926,0 0,57.3066942 0,128.00106 C0,184.555281 36.6761997,232.535542 87.534937,249.460899 C93.9320223,250.645779 96.280588,246.684165 96.280588,243.303333 C96.280588,240.251045 96.1618878,230.167899 96.106777,219.472176 C60.4967585,227.215235 52.9826207,204.369712 52.9826207,204.369712 C47.1599584,189.574598 38.770408,185.640538 38.770408,185.640538 C27.1568785,177.696113 39.6458206,177.859325 39.6458206,177.859325 C52.4993419,178.762293 59.267365,191.04987 59.267365,191.04987 C70.6837675,210.618423 89.2115753,204.961093 96.5158685,201.690482 C97.6647155,193.417512 100.981959,187.77078 104.642583,184.574357 C76.211799,181.33766 46.324819,170.362144 46.324819,121.315702 C46.324819,107.340889 51.3250588,95.9223682 59.5132437,86.9583937 C58.1842268,83.7344152 53.8029229,70.715562 60.7532354,53.0843636 C60.7532354,53.0843636 71.5019501,49.6441813 95.9626412,66.2049595 C106.172967,63.368876 117.123047,61.9465949 128.00106,61.8978432 C138.879073,61.9465949 149.837632,63.368876 160.067033,66.2049595 C184.49805,49.6441813 195.231926,53.0843636 195.231926,53.0843636 C202.199197,70.715562 197.815773,83.7344152 196.486756,86.9583937 C204.694018,95.9223682 209.660343,107.340889 209.660343,121.315702 C209.660343,170.478725 179.716133,181.303747 151.213281,184.472614 C155.80443,188.444828 159.895342,196.234518 159.895342,208.176593 C159.895342,225.303317 159.746968,239.087361 159.746968,243.303333 C159.746968,246.709601 162.05102,250.70089 168.53925,249.443941 C219.370432,232.499507 256,184.536204 256,128.00106 C256,57.3066942 198.691187,0 128.00106,0 Z M47.9405593,182.340212 C47.6586465,182.976105 46.6581745,183.166873 45.7467277,182.730227 C44.8183235,182.312656 44.2968914,181.445722 44.5978808,180.80771 C44.8734344,180.152739 45.876026,179.97045 46.8023103,180.409216 C47.7328342,180.826786 48.2627451,181.702199 47.9405593,182.340212 Z M54.2367892,187.958254 C53.6263318,188.524199 52.4329723,188.261363 51.6232682,187.366874 C50.7860088,186.474504 50.6291553,185.281144 51.2480912,184.70672 C51.8776254,184.140775 53.0349512,184.405731 53.8743302,185.298101 C54.7115892,186.201069 54.8748019,187.38595 54.2367892,187.958254 Z M58.5562413,195.146347 C57.7719732,195.691096 56.4895886,195.180261 55.6968417,194.042013 C54.9125733,192.903764 54.9125733,191.538713 55.713799,190.991845 C56.5086651,190.444977 57.7719732,190.936735 58.5753181,192.066505 C59.3574669,193.22383 59.3574669,194.58888 58.5562413,195.146347 Z M65.8613592,203.471174 C65.1597571,204.244846 63.6654083,204.03712 62.5716717,202.981538 C61.4524999,201.94927 61.1409122,200.484596 61.8446341,199.710926 C62.5547146,198.935137 64.0575422,199.15346 65.1597571,200.200564 C66.2704506,201.230712 66.6095936,202.705984 65.8613592,203.471174 Z M75.3025151,206.281542 C74.9930474,207.284134 73.553809,207.739857 72.1039724,207.313809 C70.6562556,206.875043 69.7087748,205.700761 70.0012857,204.687571 C70.302275,203.678621 71.7478721,203.20382 73.2083069,203.659543 C74.6539041,204.09619 75.6035048,205.261994 75.3025151,206.281542 Z M86.046947,207.473627 C86.0829806,208.529209 84.8535871,209.404622 83.3316829,209.4237 C81.8013,209.457614 80.563428,208.603398 80.5464708,207.564772 C80.5464708,206.498591 81.7483088,205.631657 83.2786917,205.606221 C84.8005962,205.576546 86.046947,206.424403 86.046947,207.473627 Z M96.6021471,207.069023 C96.7844366,208.099171 95.7267341,209.156872 94.215428,209.438785 C92.7295577,209.710099 91.3539086,209.074206 91.1652603,208.052538 C90.9808515,206.996955 92.0576306,205.939253 93.5413813,205.66582 C95.054807,205.402984 96.4092596,206.021919 96.6021471,207.069023 Z"></path></g></svg></a><a _ngcontent-ng-c932822085="" href="https://www.linkedin.com/in/mnieruchalski"><svg _ngcontent-ng-c932822085="" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"><g _ngcontent-ng-c932822085=""><path _ngcontent-ng-c932822085="" d="M218.123122,218.127392 L180.191928,218.127392 L180.191928,158.724263 C180.191928,144.559023 179.939053,126.323993 160.463756,126.323993 C140.707926,126.323993 137.685284,141.757585 137.685284,157.692986 L137.685284,218.123441 L99.7540894,218.123441 L99.7540894,95.9665207 L136.168036,95.9665207 L136.168036,112.660562 L136.677736,112.660562 C144.102746,99.9650027 157.908637,92.3824528 172.605689,92.9280076 C211.050535,92.9280076 218.138927,118.216023 218.138927,151.114151 L218.123122,218.127392 Z M56.9550587,79.2685282 C44.7981969,79.2707099 34.9413443,69.4171797 34.9391618,57.260052 C34.93698,45.1029244 44.7902948,35.2458562 56.9471566,35.2436736 C69.1040185,35.2414916 78.9608713,45.0950217 78.963054,57.2521493 C78.9641017,63.090208 76.6459976,68.6895714 72.5186979,72.8184433 C68.3913982,76.9473153 62.7929898,79.26748 56.9550587,79.2685282 M75.9206558,218.127392 L37.94995,218.127392 L37.94995,95.9665207 L75.9206558,95.9665207 L75.9206558,218.127392 Z M237.033403,0.0182577091 L18.8895249,0.0182577091 C8.57959469,-0.0980923971 0.124827038,8.16056231 -0.001,18.4706066 L-0.001,237.524091 C0.120519052,247.839103 8.57460631,256.105934 18.8895249,255.9977 L237.033403,255.9977 C247.368728,256.125818 255.855922,247.859464 255.999,237.524091 L255.999,18.4548016 C255.851624,8.12438979 247.363742,-0.133792868 237.033403,0.000790807055"></path></g></svg></a></div></app-social-media></footer></app-footer></app-blog><!----></app-root>
+  
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"0":"t1"},"c":{"0":[{"i":"t1","r":1}]}},{"c":{"1":[{"i":"c3546697990","r":1}]}},{"c":{"0":[{"i":"c1022794682","r":1}]}}]}</script></body></html>
