@@ -13,7 +13,7 @@ meta:
   - property: og:description
     content: "A short story about parsing and analyzing Facebook Messenger Chats"
   - property: og:image
-    content: https://nieruchalski.dev/post-assets/deciphering-facebook/thumbnail.jpg
+    content: https://nieruchalski.dev/post-assets/deciphering-facebook/header.jpg
   - property: og:url
     content: https://nieruchalski.dev/deciphering-facebook
 ---
