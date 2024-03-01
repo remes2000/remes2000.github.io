@@ -5,6 +5,17 @@ subtitle: How do you find out if your friends like you?
 thumbnail: /post-assets/deciphering-facebook/thumbnail.jpg
 date: 2024-02-26 20:00:00.000Z
 author: Michał Nieruchalski
+meta:
+  - name: description
+    content: "A short story about parsing and analyzing Facebook Messenger Chats"
+  - property: og:title
+    content: "Deciphering Facebook: Analyzing Messenger Chats"
+  - property: og:description
+    content: "A short story about parsing and analyzing Facebook Messenger Chats"
+  - property: og:image
+    content: https://nieruchalski.dev/post-assets/deciphering-facebook/thumbnail.jpg
+  - property: og:url
+    content: https://nieruchalski.dev/deciphering-facebook
 ---
 
 <figure>
