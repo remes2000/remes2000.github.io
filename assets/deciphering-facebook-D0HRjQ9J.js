@@ -15,7 +15,7 @@ meta:
   - property: og:image
     content: https://nieruchalski.dev/post-assets/deciphering-facebook/header.jpg
   - property: og:url
-    content: https://nieruchalski.dev/deciphering-facebook
+    content: https://nieruchalski.dev/blog/deciphering-facebook
 ---
 
 <figure>
