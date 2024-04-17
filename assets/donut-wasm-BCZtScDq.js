@@ -266,4 +266,4 @@ It works in the following way:
 4. Return decoded value.
 
 # Summary
-I had plenty of fun coding this side project. I've learned a lot about various computer science topics (low-level programming, memory management, and 3D graphics). I've also noticed that working on more visual projects keeps me more interested in it. It was a great pleasure to discover that we don't have to write everything in javascript anymore! We can use the language that is the best fit for a given project, we can run it in the browser via webassembly!`;export{e as default};
+I had plenty of fun coding this side project. I've learned a lot about various computer science topics (low-level programming, memory management, and 3D graphics). I've also noticed that working on more visual projects keeps me more interested in it. It was a great pleasure to discover that we don't have to write everything in javascript anymore! We can use the language that is the best fit for a given project, we can run it in the browser via webassembly! All the source code is available on my [GitHub](https://github.com/remes2000/donut.wasm).`;export{e as default};
